@@ -4,41 +4,74 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Servicios - Martín López Aguilera</title>
+
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
   <link rel="stylesheet" href="../style.css">
 </head>
 <body>
+
 <header>
-  <h1>Martín López Aguilera</h1>
-  <nav>
-    <ul>
-      <li><a href="../index.html">Inicio</a></li>
-      <li><a href="servicios.html">Servicios</a></li>
-      <li><a href="experiencia.html">Experiencia</a></li>
-      <li><a href="proyectos.html">Proyectos</a></li>
-      <li><a href="contacto.html">Contacto</a></li>
-    </ul>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">Martín López Aguilera</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mainNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link active" href="servicios.html">Servicios</a></li>
+          <li class="nav-item"><a class="nav-link" href="experiencia.html">Experiencia</a></li>
+          <li class="nav-item"><a class="nav-link" href="proyectos.html">Proyectos</a></li>
+          <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
   </nav>
 </header>
-<main>
-  <h2>Servicios Profesionales</h2>
 
-  <h3>Ingeniería Clínica</h3>
-  <ul>
-    <li>Gestión y diagnóstico de equipos médicos.</li>
-    <li>Elaboración de especificaciones técnicas.</li>
-    <li>Evaluación de licitaciones y convenios hospitalarios.</li>
-  </ul>
+<main class="container my-5">
+  <h1 class="mb-4">Servicios Profesionales</h1>
 
-  <h3>Desarrollo de Software</h3>
-  <ul>
-    <li>Automatización de procesos de licitación pública.</li>
-    <li>Desarrollo web con Python, Django y React.</li>
-    <li>Diseño de sistemas con inteligencia artificial.</li>
-  </ul>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+    <article class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h2 class="h5 card-title">Ingeniería Clínica</h2>
+          <ul>
+            <li>Gestión y diagnóstico de equipos médicos críticos.</li>
+            <li>Elaboración de especificaciones técnicas y evaluación de licitaciones.</li>
+            <li>Gestión de convenios de mantención e inventarios.</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <article class="col">
+      <div class="card h-100">
+        <div class="card-body">
+          <h2 class="h5 card-title">Desarrollo de Software</h2>
+          <ul>
+            <li>Automatización de procesos de licitación pública.</li>
+            <li>Aplicaciones web con Django, React y PostgreSQL.</li>
+            <li>Integración de IA (LLM, chatbots, buscadores inteligentes).</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+  </div>
 </main>
-<footer>
-  <p>© 2025 Martín López Aguilera</p>
-  <p>Ingeniero Civil Biomédico | Desarrollador Fullstack</p>
+
+<footer class="bg-dark text-light py-3 mt-auto">
+  <div class="container text-center small">
+    <p class="mb-1">© 2025 Martín López Aguilera</p>
+    <p class="mb-0">Servicios de Ingeniería Biomédica y Desarrollo de Software</p>
+  </div>
 </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
