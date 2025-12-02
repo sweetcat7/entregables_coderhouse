@@ -1,0 +1,11 @@
+.btn-inverse {
+  @include btn-base;
+  background-color: $color-blanco;
+  color: $color-primario;
+  border: 1px solid $border-color-primario;
+
+  &:hover {
+    background-color: $color-primario;
+    color: $color-blanco;
+  }
+}

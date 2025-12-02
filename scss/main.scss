@@ -1,0 +1,22 @@
+// ABSTRACTS (variables, mixins, funciones)
+@import "abstracts/variables";
+@import "abstracts/mixins";
+
+// BASE (reset, estilos globales)
+@import "base/reset";
+@import "base/globals";
+
+// LAYOUT (estructura general)
+@import "layout/header";
+@import "layout/footer";
+
+// COMPONENTES
+@import "components/navbar";
+@import "components/cards";
+
+// PÁGINAS
+@import "pages/home";
+@import "pages/contacto";
+@import "pages/servicios";
+@import "pages/proyectos";
+@import "pages/experiencia";

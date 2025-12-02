@@ -1,10 +1,9 @@
-/* Tipografía y fondo general */
+/* Tipografía y fondo general
 body {
   font-family: system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
   background-color: #f5f5f5;
 }
 
-/* Navbar y footer personalizados */
 .navbar {
   background-color: #0a7a5a !important;
 }
@@ -13,7 +12,6 @@ footer {
   font-size: 0.9rem;
 }
 
-/* Botón inverso que definimos en index */
 .btn-inverse {
   background-color: #ffffff;
   color: #0a7a5a;
@@ -24,12 +22,11 @@ footer {
   color: #ffffff;
 }
 
-/* Titulares */
+
 h1, h2, h3 {
   color: #223c6a;
 }
 
-/* Listas dentro de cards */
 .card ul {
   padding-left: 1.2rem;
-}
+} */
