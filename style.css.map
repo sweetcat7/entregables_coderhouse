@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["scss/base/_globals.scss","scss/abstracts/_variables.scss","scss/layout/_header.scss","scss/layout/_footer.scss","scss/components/_cards.scss"],"names":[],"mappings":"AAAA;EACE,aCMU;EDLV,kBCCY;;;ADEd;EACE,OCJiB;;;ACFnB;EACE;;;ACDF;EACE;;;ACAA;EACE,cHSS","file":"style.css"}
