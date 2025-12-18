@@ -1,3 +1,28 @@
 .navbar {
-  background-color: $color-primario !important;
+  background-color: $color-primary !important;
+  box-shadow: $shadow-sm;
+
+  .navbar-brand {
+    font-weight: $font-weight-bold;
+    color: $color-white;
+
+    &:hover {
+      color: $color-white;
+      opacity: 0.9;
+    }
+  }
+
+  .nav-link {
+    color: rgba(255, 255, 255, 0.85);
+    transition: color 0.2s ease;
+
+    &:hover {
+      color: $color-white;
+    }
+
+    &.active {
+      color: $color-white;
+      font-weight: $font-weight-medium;
+    }
+  }
 }

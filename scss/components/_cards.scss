@@ -1,5 +1,32 @@
 .card {
+  border: none;
+  border-radius: $radius-md;
+  box-shadow: $shadow-sm;
+  transition: all 0.3s ease;
+  background-color: $color-white;
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: $shadow-md;
+  }
+
+  .card-title {
+    font-weight: $font-weight-bold;
+    color: $color-secondary;
+    margin-bottom: $spacing-sm;
+  }
+
+  .card-text {
+    color: $color-text;
+    font-size: 0.95rem;
+  }
+
   ul {
     padding-left: $spacing-md;
+
+    li {
+      margin-bottom: 0.4rem;
+      color: $color-text;
+    }
   }
 }

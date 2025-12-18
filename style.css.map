@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["scss/base/_globals.scss","scss/abstracts/_variables.scss","scss/layout/_header.scss","scss/layout/_footer.scss","scss/components/_cards.scss"],"names":[],"mappings":"AAAA;EACE,aCMU;EDLV,kBCCY;;;ADEd;EACE,OCJiB;;;ACFnB;EACE;;;ACDF;EACE;;;ACAA;EACE,cHSS","file":"style.css"}
+{
+"version":3,
+"sourceRoot":"",
+"sources":["scss/base/_globals.scss","scss/abstracts/_variables.scss","scss/layout/_header.scss","scss/layout/_footer.scss","scss/components/_cards.scss","scss/base/_responsive.css"],
+"names":[],"mappings":"AAAA;EACE,aCoBU;EDnBV,WCsBe;EDrBf,aC8BoB;ED7BpB,OCOW;EDNX,kBCIS;EDHT;;;AAMF;AAAA;AAAA;EAGE,OCTgB;EDUhB,aCmBiB;EDlBjB;EACA,eCuBW;;;ADpBb;EACE,WCMa;;;ADHf;EACE,WCGa;;;ADAf;EACE;;;AAMF;EACE,eCIW;EDHX;;;AAGF;EACE,WCjBa;EDkBb,OC/BY;;;ADqCd;EACE,OC7Cc;ED8Cd;EACA;;AAEA;EACE,OCvCU;EDwCV;;;AExDJ;EACE;EACA,YDiDU;;AC/CV;EACE,aD8Be;EC7Bf,ODIU;;ACFV;EACE,ODCQ;ECAR;;AAIJ;EACE;EACA;;AAEA;EACE,ODTQ;;ACYV;EACE,ODbQ;ECcR,aDUe;;;AElCrB;EACE;;;ACAA;EACE,cHwCS;;;AI1Cb;EACE;IACE;IACA;;EAGF;IACE",
+"file":"style.css"
+}

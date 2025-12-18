@@ -1,8 +1,59 @@
 body {
   font-family: $font-base;
-  background-color: $color-fondo;
+  font-size: $font-size-base;
+  font-weight: $font-weight-regular;
+  color: $color-text;
+  background-color: $color-bg;
+  line-height: 1.65;
 }
 
-h1, h2, h3 {
-  color: $color-secundario;
+// ===============================
+// HEADINGS
+// ===============================
+h1,
+h2,
+h3 {
+  color: $color-secondary;
+  font-weight: $font-weight-bold;
+  line-height: 1.25;
+  margin-bottom: $spacing-sm;
+}
+
+h1 {
+  font-size: $font-size-h1;
+}
+
+h2 {
+  font-size: $font-size-h2;
+}
+
+h3 {
+  font-size: $font-size-h3;
+}
+
+// ===============================
+// TEXTOS
+// ===============================
+p {
+  margin-bottom: $spacing-sm;
+  max-width: 70ch;
+}
+
+small {
+  font-size: $font-size-sm;
+  color: $color-muted;
+}
+
+// ===============================
+// LINKS
+// ===============================
+a {
+  color: $color-primary;
+  text-decoration: none;
+  transition: color 0.2s ease;
+
+  &:hover {
+    color: $color-hover;
+    text-decoration: underline;
+  }
 }
